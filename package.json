@@ -1,0 +1,10 @@
+{
+  "name": "chai-jpmc-digital",
+  "version": "1.0.0",
+  "description": "For CD's JavaScript exercise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Jing Chai <jingweichai@gmail.com>"
+}
