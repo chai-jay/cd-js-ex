@@ -9,4 +9,4 @@ JavaScript exercise. Tested using Node.js version `8.9.4`.
 
 # Potential Improvements
 - Setup linting
-- Add validation of inputs (eg check they're of type `number`, maybe throw `TypeError`? Or rely on JavaScript's implicit coercion?)
+- Add validation of inputs (eg check class methods args are of type `number`, maybe throw `TypeError`? Or rely on JavaScript's implicit coercion?)
