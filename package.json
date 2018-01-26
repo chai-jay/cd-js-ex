@@ -2,7 +2,6 @@
   "name": "chai-jpmc-digital",
   "version": "1.0.0",
   "description": "For CD's JavaScript exercise.",
-  "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha --recursive"
   },
