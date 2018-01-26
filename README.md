@@ -1,3 +1,6 @@
+# Description
+JavaScript exercise. Tested using Node.js version `8.9.4`.
+
 # TODO's
 - [X] Eat dinner
 - [X] Figure out which testing library is being used
