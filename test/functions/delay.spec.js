@@ -17,6 +17,8 @@ describe("delay", function () {
   });
 
   it("delays execution", function () {
+    // Note: Node.js >7.0.0 causes console to log warnings due to unhandled Promise rejection
+    // https://github.com/domenic/chai-as-promised/issues/173
     expect(delay(1000, calculator, 'add', [10, 5])).to.eventually.equal(15);
     expect(delay(500, calculator, 'subtract', [9, 5])).to.eventually.equal(4);
   });
