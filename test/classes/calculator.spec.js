@@ -27,6 +27,9 @@ describe("Calculator", function () {
   });
 
   it("does not divide by 0", function () {
-    expect(calculator.divide(5, 0)).to.equal(NaN);
+    // Incorrect way to check for NaN
+    // expect(calculator.divide(5, 0)).to.equal(NaN);
+
+    expect(Number.isNaN(calculator.divide(5, 0))).to.be.true;
   });
 });

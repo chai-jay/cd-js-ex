@@ -1,8 +1,9 @@
 # TODO's
 - [X] Eat dinner
-- [ ] Figure out which testing library is being used
+- [X] Figure out which testing library is being used
 - [ ] Write main code
 - [ ] Test code
 
 # Potential Improvements
 - Setup linting
+- Add validation of inputs (eg check they're of type `number`, maybe throw `TypeError`? Or rely on JavaScript's implicit coercion?)
