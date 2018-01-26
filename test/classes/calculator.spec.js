@@ -27,7 +27,8 @@ describe("Calculator", function () {
   });
 
   it("does not divide by 0", function () {
-    // Incorrect way to check for NaN
+    // Incorrect way to check for NaN with Chai library
+    // TODO: Check if this JS exercise was meant to be run with Chai library
     // expect(calculator.divide(5, 0)).to.equal(NaN);
 
     expect(Number.isNaN(calculator.divide(5, 0))).to.be.true;
