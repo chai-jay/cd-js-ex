@@ -1,1 +1,3 @@
-export class Calculator {}
+class Calculator {}
+
+module.exports = Calculator;

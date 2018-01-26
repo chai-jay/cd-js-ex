@@ -1,1 +1,3 @@
-export function delay() {}
+function delay() {}
+
+module.exports = delay;

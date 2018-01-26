@@ -1,1 +1,3 @@
-export function withExponents() {}
+function withExponents() {}
+
+module.exports = withExponents;

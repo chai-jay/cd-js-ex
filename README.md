@@ -1,5 +1,5 @@
 # TODO's
-- [ ] Eat dinner
+- [X] Eat dinner
 - [ ] Figure out which testing library is being used
 - [ ] Write main code
 - [ ] Test code
