@@ -1,5 +1,5 @@
 /**
- * `Calculator` class with basic math arithmetic methods.
+ * Class with basic math arithmetic methods.
  */
 class Calculator {
   /**
