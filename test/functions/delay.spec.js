@@ -1,3 +1,11 @@
+const chai = require('chai');
+const chaiAsPromised = require("chai-as-promised");
+const expect = chai.expect;
+const Calculator = require('./../../src/classes/calculator.js');
+const delay = require('./../../src/functions/delay.js')
+
+chai.use(chaiAsPromised);
+
 describe("delay", function () {
 
   var calculator = new Calculator();

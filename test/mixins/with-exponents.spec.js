@@ -1,3 +1,8 @@
+const chai = require('chai');
+const expect = chai.expect;
+const Calculator = require('./../../src/classes/calculator.js');
+const withExponents = require('./../../src/mixins/with-exponents.js')
+
 describe("withExponents", function () {
 
   var calculator;

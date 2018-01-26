@@ -1,5 +1,9 @@
-describe("ScientificCalculator", function () {
+const chai = require('chai');
+const expect = chai.expect;
+const Calculator = require('./../../src/classes/calculator.js');
+const ScientificCalculator = require('./../../src/classes/scientific-calculator.js');
 
+describe("ScientificCalculator", function () {
   var calculator;
 
   beforeEach(function () {

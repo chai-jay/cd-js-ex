@@ -1,3 +1,7 @@
+const chai = require('chai');
+const expect = chai.expect;
+const Calculator = require('./../../src/classes/calculator.js');
+
 describe("Calculator", function () {
 
   var calculator;
