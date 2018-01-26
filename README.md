@@ -1,4 +1,6 @@
 # Description
+Located at https://github.com/chai-jay/cd-js-ex. Can be removed upon request.
+
 JavaScript exercise. Tested using Node.js version `8.9.4` and Mocha + Chai + `chai-as-promised` libraries. 
 
 Main code lives within `/src/` directory. 
