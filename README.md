@@ -15,7 +15,7 @@ Note, I modified the assertions for `Calculator` class' `does not divide by 0` s
 - [X] Eat dinner
 - [X] Figure out which testing library is being used
 - [X] Write main code
-- [X] Test code
+- [X] Ensure test code passes
 
 # Potential Improvements
 - Setup linting
