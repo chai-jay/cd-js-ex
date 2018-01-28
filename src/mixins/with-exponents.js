@@ -20,17 +20,17 @@ function withExponents() {
    * `( t_1[0] ^ t_1[1] ) * ( t_2[0] ^ t_2[1] ) * ... * ( t_n[0] ^ t_n[1] )`.
    * @param {...number[]} tuples A list of 2-tuples
    */
-  this.multiplyExp = function(tuples) {
+  this.multiplyExp = function(...tuples) {
     // Throw `Error` if less than two 2-tuples provided
     // TODO: Do more validation of arguments (eg check for valid 2-tuple members)
-    if (arguments.length < 2) {
+    if (tuples.length < 2) {
       throw Error('Must provide at least two 2-tuples!');
     }
 
     let product = 1;
 
-    for (let i = 0; i < arguments.length; i++) {
-      product *= this.pow(arguments[i][0], arguments[i][1]);
+    for (let i = 0; i < tuples.length; i++) {
+      product *= this.pow(tuples[i][0], tuples[i][1]);
     }
 
     return product;
